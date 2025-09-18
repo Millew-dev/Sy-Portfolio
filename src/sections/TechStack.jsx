@@ -30,12 +30,12 @@ const TechStack = () => {
                     sub="Tools I Use to Deliver Results"
                 />
 
-                <div className="tech-grid">
+                <div className="tech-grid mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
 
                     {techStackImgs.map((icon) => (
                         <div
                             key={icon.name}
-                            className="card-border tech-card overflow-hidden group rounded-lg flex flex-col gap-3 md:gap-4"
+                            className="card-border tech-card overflow-hidden group rounded-xl flex flex-col gap-3 md:gap-4"
                         >
                             {/* Background animation */}
                             <div className="tech-card-animated-bg" />
