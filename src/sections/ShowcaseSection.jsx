@@ -53,23 +53,21 @@ const ShowcaseSection = () => {
         /* Start Here*/
         <section id="work" ref={sectionRef} className="app-showcase bg-black py-16">
             <div className="w-full max-w-7xl mx-auto px-4">
-                <div className="showcaselayout gap-10">
+
+                <div className="showcaselayout gap-6">
 
                     {/* Left: Title & Description */}
-                    <div className="md:w-1/3 text-left">
+                    <div className="md:w-2/3 text-left w-full px-0 ml-0">
                         <h2 className="text-5xl sm:text-6xl font-bold text-white inline-block pb-2 border-b-4 border-yellow-500">
                             Projects
                         </h2>
-                    </div>
-
-                    {/* Stretching Description */}
-                    <div className="md:w-2/3 text-left">
                         <p className="mt-2 text-white text-2xl font-semibold leading-relaxed">
                             I worked on these projects as both a Data Scientist and ML Engineer,
                             building machine learning models and analyzing data while also
                             deploying them in production.
                         </p>
                     </div>
+
 
                     {/* Projects Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

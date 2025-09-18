@@ -11,7 +11,7 @@ const FeatureCards = () => {
                         key={title}
                         className="card-border rounded-xl p-6 md:p-8 flex flex-col gap-3 md:gap-4"
                     >
-                        <div className="size-12 md:size-14 flex items-center justify-center rounded-full">
+                        <div className="size-12 md:size-14 flex items-center justify-center">
                             <img src={imgPath} alt={title} />
                         </div>
                         <h3 className="text-white text-xl md:text-2xl font-semibold mt-1 md:mt-2">{title}</h3>

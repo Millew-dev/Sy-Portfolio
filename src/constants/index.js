@@ -136,6 +136,10 @@ const socialImgs = [
         name: "linkedin",
         imgPath: "/images/linkedin.png",
         url: "https://www.linkedin.com/in/sylvia-mwai-b306a023a/"
+    },{
+        name: "Github",
+        imgPath: "/images/github-48.png",
+        url: "https://github.com/SylviaMwai"
     },
 ];
 
