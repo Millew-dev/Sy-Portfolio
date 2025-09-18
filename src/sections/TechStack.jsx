@@ -35,7 +35,7 @@ const TechStack = () => {
                     {techStackImgs.map((icon) => (
                         <div
                             key={icon.name}
-                            className="card-border tech-card overflow-hidden group rounded-xl flex flex-col gap-3 md:gap-4"
+                            className="card-border tech-card overflow-hidden group rounded-xl flex flex-col items-center justify-center gap-3 md:gap-4"
                         >
                             {/* Background animation */}
                             <div className="tech-card-animated-bg" />

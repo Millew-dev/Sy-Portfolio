@@ -181,7 +181,7 @@ section {
         @apply w-full mt-20 md:px-15 px-5 py-10 md:py-20;
 
         .showcaselayout {
-            @apply flex flex-col gap-10 flex xl:flex-row;
+            @apply flex flex-col gap-10;
         }
         .first-project-wrapper {
             @apply h-full flex flex-col justify-between;
@@ -208,7 +208,7 @@ section {
         }
 
         .project-list-wrapper {
-            @apply flex md:flex-row flex-col xl:flex-col flex-wrap gap-12;
+            @apply flex flex-col xl:flex-col flex-wrap gap-12;
 
             .image-wrapper {
                 @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;

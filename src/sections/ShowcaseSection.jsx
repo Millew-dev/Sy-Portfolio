@@ -54,7 +54,7 @@ const ShowcaseSection = () => {
         <section id="work" ref={sectionRef} className="app-showcase bg-black py-16">
             <div className="w-full max-w-7xl mx-auto px-4">
 
-                <div className="showcaselayout gap-6">
+                <div className="showcaselayout flex flex-col gap-10">
 
                     {/* Left: Title & Description */}
                     <div className="md:w-2/3 text-left w-full px-0 ml-0">
